@@ -1,0 +1,39 @@
+.lp55FantasyTxt {
+    font-size: 22px;
+    color: #44475b;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+.login121ManualEmailInput {
+    margin: 70px 20px 0 0px;
+}
+
+.login121Password {
+    margin: 50px 20px 0 0px;
+}
+
+.login121ShowHide {
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.login121EnterButton {
+    margin-top: 70px;
+}
+
+.ls77MainHead {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0px;
+    color: var(--constantWhite);
+    margin-top: 30px;
+}
+
+.ls77Two {
+    color: var(--primaryClr);
+}

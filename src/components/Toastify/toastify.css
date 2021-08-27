@@ -1,0 +1,47 @@
+.sb10Toastify {
+  transition: all 0.2s ease;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  z-index: 900;
+  left: 0;
+  height: 0;
+  font-size: 14px;
+  -webkit-font-smoothing: auto;
+  letter-spacing: 0.1px;
+  line-height: 17px;
+  color: var(--constantWhite);
+  overflow: hidden;
+}
+
+.sb10ToastifyShow {
+  padding: 10px 12px;
+  height: 30px;
+  display: inline-table;
+}
+
+.sb10ToastifyCloseIcn {
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+}
+
+.sb10ToastifySuccess {
+  background-color: var(--primaryClr);
+}
+
+.sb10ToastifyError {
+  background-color: var(--growwRed);
+}
+
+.sb10ToastifyInfo {
+  background-color: var(--constantText);
+}
+
+.sb10ToastifyPositionTop {
+  top: 0;
+}
+
+.sb10ToastifyPositionBottom {
+  bottom: 0;
+}

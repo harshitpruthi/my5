@@ -1,0 +1,55 @@
+.ssp66MainDiv {
+    margin-top: 20px;
+}
+
+.ssp66BelowDiv {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border);
+}
+
+.ssp66SelectTxt {
+    margin-top: 15px;
+}
+
+.ssp66CaptainDiv {
+    height: 35px;
+    width: 45px;
+    background-color: var(--primaryClr10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ssp66WeakDiv {
+    height: 35px;
+    width: 50px;
+    background-color: var(--growwRed10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ssp66CaptainTxt {
+    padding-top: 8px;
+}
+
+.ssp66WTxt {
+    padding-top: 8px;
+}
+
+.ssp66SelectStock {
+    margin-top: 70px;
+    border: 1px dashed var(--primaryClr);
+    border-radius: 15px;
+    padding: 20px 10px;
+}
+
+.ssp66AddIcon {
+    height: 24px;
+    width: 24px;
+    background-color: var(--primaryClr10);
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}

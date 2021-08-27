@@ -1,0 +1,77 @@
+.asp88MainDiv {
+    margin-top: 20px;
+}
+
+.asp88BelowDiv {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border);
+}
+
+.asp88SelectTxt {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.asp88CaptainDiv {
+    height: 35px;
+    width: 45px;
+    background-color: var(--primaryClr10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.asp88WeakDiv {
+    height: 35px;
+    width: 50px;
+    background-color: var(--growwRed10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.asp88CaptainTxt {
+    padding-top: 8px;
+}
+
+.asp88WTxt {
+    padding-top: 8px;
+}
+
+.asp88SelectStock {
+    margin-top: 70px;
+    border: 1px dashed var(--primaryClr);
+    border-radius: 15px;
+    padding: 20px 10px;
+}
+
+.asp88AddIcon {
+    height: 24px;
+    width: 24px;
+    background-color: var(--primaryClr10);
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.asp88DisplayName {
+    padding: 10px;
+    display: flex;
+}
+
+.asp88DisplayNameDiv {
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mvc754DivImg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background: var(--constantWhite);
+    object-fit: contain;
+}

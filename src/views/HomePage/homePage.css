@@ -1,0 +1,18 @@
+.ssp88SelectStock {
+    margin-top: 40px;
+    border: 1px dashed var(--primaryClr);
+    border-radius: 15px;
+    padding: 20px 10px;
+}
+
+.ssp88AddIcon {
+    height: 24px;
+    width: 24px;
+    background-color: var(--primaryClr10);
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}

@@ -1,0 +1,129 @@
+.ssp66MainDiv {
+    margin-top: 20px;
+}
+
+.ssp66BelowDiv {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border);
+}
+
+.ssp66SelectTxt {
+    margin-top: 15px;
+}
+
+.ssp66CaptainDiv {
+    height: 35px;
+    width: 45px;
+    background-color: var(--primaryClr10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.abcCaptainDiv {
+    height: 20px;
+    width: 20px;
+    background: var(--subText70);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ssp66WeakDiv {
+    height: 35px;
+    width: 50px;
+    background-color: var(--growwRed10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.abcWeakDiv {
+    height: 20px;
+    width: 20px;
+    background: var(--subText70);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ssp66WeakDiv {
+    height: 35px;
+    width: 50px;
+    background-color: var(--growwRed10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ssp66NeutralDiv {
+    height: 35px;
+    width: 35px;
+    background-color: var(--growwYellow10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.abcNeutralDiv {
+    height: 20px;
+    width: 20px;
+    background: var(--subText70);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ssp66CaptainTxt {
+    padding-top: 8px;
+}
+
+.abcCaptainTxt {
+    padding-top: 8px;
+}
+
+.ssp66WTxt {
+    padding-top: 8px;
+}
+
+.abcWTxt {
+    padding-top: 8px;
+}
+
+.ssp66SelectStock {
+    margin-top: 70px;
+    border: 1px dashed var(--primaryClr);
+    border-radius: 15px;
+    padding: 20px 10px;
+}
+
+.ssp66AddIcon {
+    height: 24px;
+    width: 24px;
+    background-color: var(--primaryClr10);
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.lbp88DisplayName {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.lbp754DivImg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background: var(--constantWhite);
+    object-fit: contain;
+}
+
+.lbp754MainDiv {
+    padding: 15px 15px 5px 15px;
+}
+
+.abcMainDiv {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+}
