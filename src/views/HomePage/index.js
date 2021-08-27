@@ -63,9 +63,9 @@ class HomePage extends PureComponent {
                     <h2 style={{ marginTop: 30 }} className="clrGreen fs16">This Week's LeaderBoard</h2>
 
                     {
-                        leaderBoardData && leaderBoardData.map((data) => {
+                        leaderBoardData && leaderBoardData.map((data, index) => {
                             return (
-                                <div style={{ padding: '20px 0px', borderBottom: '1px solid var(--border)' }}>
+                                <div key={index} style={{ padding: '20px 0px', borderBottom: '1px solid var(--border)' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                         <div className="pr11ImageWidth">
                                             <ProfileIcon
@@ -85,9 +85,9 @@ class HomePage extends PureComponent {
                                     </div>
                                     <div style={{ display: 'flex', marginLeft: 50 }}>
                                         {
-                                            imageArr.map((img) => {
+                                            imageArr.map((img, index) => {
                                                 return (
-                                                    <div style={{ marginRight: 10 }}>
+                                                    <div key={index} style={{ marginRight: 10 }}>
                                                         <Image src={img} width={20} height={20} />
                                                     </div>
                                                 )

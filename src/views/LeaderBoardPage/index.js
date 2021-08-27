@@ -122,7 +122,6 @@ class LeaderBoardPage extends PureComponent {
         let filteredData = [];
 
         const filterNeutral = this.props.location.state.allStocksData.filter(obj => {
-
             return obj.header.searchId !== this.state.isCaptain.searchId && obj.header.searchId !== this.state.isJoker.searchId;
         });
 
@@ -132,7 +131,7 @@ class LeaderBoardPage extends PureComponent {
                 "type": 'NEUTRAL'
             }
 
-            filteredData.push(neutralData)
+            return filteredData.push(neutralData)
         })
 
         const selection = [

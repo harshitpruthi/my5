@@ -5,10 +5,7 @@ import React, { PureComponent } from 'react';
 import Button from '../../components/Button';
 import Image from '../../components/Image';
 import Toastify from '../../components/Toastify';
-import {
-  getAllStocks,
-  getPriceforBatch,
-} from '../../utils/api';
+import { getAllStocks } from '../../utils/api';
 
 class AddStocksPage extends PureComponent {
     toastifyRef = React.createRef();
@@ -27,21 +24,7 @@ class AddStocksPage extends PureComponent {
     componentDidMount() {
         getAllStocks().then((res) => {
             this.setState({
-                allStocks: res?.data.childAssets
-            }, () => {
-
-                const nseCodes = [];
-
-                this.state.allStocks?.forEach(peer => {
-                    if (peer.header?.nseScriptCode) {
-                        nseCodes.push(peer.header?.nseScriptCode);
-
-                    }
-                });
-
-                getPriceforBatch(nseCodes).then((res) => {
-
-                })
+                allStocks: res?.data?.childAssets
             })
         })
     }
@@ -61,7 +44,7 @@ class AddStocksPage extends PureComponent {
 
                 <div style={{ height: '75vh', overflow: 'auto' }}>
                     {
-                        allStocks && allStocks.map((data, index) => {
+                        allStocks.map((data, index) => {
 
                             return (
                                 <div key={data.header.isin} className="asp88DisplayNameDiv">
@@ -122,8 +105,6 @@ class AddStocksPage extends PureComponent {
 
             this.setState({
                 testArr: this.state.stocksList
-            }, () => {
-                // console.log(this.state.testArr)
             })
 
         } else {
