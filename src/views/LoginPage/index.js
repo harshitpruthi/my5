@@ -26,7 +26,7 @@ class LoginPage extends React.PureComponent {
         return (
             <div className="page-padding" style={{ background: '#121212', height: '100vh' }}>
                 <div className="absolute-center ls77MainDiv">
-                    <h1 className="ls77MainHead">My<span className="ls77Two">2</span>cents</h1>
+                    <h1 className="ls77MainHead">My<span className="ls77Two">5</span></h1>
                 </div>
 
                 <div className="col s12 login121ManualEmailInput"

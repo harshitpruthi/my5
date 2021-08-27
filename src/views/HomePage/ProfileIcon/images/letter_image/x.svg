@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>C41BA091-C93D-4C8F-BEF4-B6474FB85666</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="67.5" cy="67.5" r="67.5"></circle>
+    </defs>
+    <g id="Lettering" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4" transform="translate(-836.000000, -1251.000000)">
+            <g id="x" transform="translate(836.000000, 1251.000000)">
+                <g id="Group">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" id="Oval">
+                        <circle fill="#00BCD4" cx="67.5" cy="67.5" r="67.5"></circle>
+                        <path d="M135.5,67.5 C135.5,30.2207794 105.279221,0 68,0 L68,67.5 L135.5,67.5 Z" fill="#80DEEA"></path>
+                        <path d="M67.5,135.5 C67.5,98.2207794 37.2792206,68 0,68 L0,135.5 L67.5,135.5 Z" fill="#80DEEA" transform="translate(33.750000, 101.750000) scale(-1, -1) translate(-33.750000, -101.750000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

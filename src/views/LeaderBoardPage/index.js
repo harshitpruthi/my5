@@ -59,8 +59,8 @@ class LeaderBoardPage extends PureComponent {
                                         <div className="clrText lbp88DisplayName">{data?.header.displayName}</div>
                                     </div>
                                     <div>
-                                        <div className="abcCaptainDiv" style={{ backgroundColor: this.state.captainSelectedIndex === index ? 'var(--growwRed)' : '' }} onClick={() => this.onCaptainClick(data.header.searchId, 'CAPTAIN', index)}><span className="fs12 clrText absolute-center">c</span></div>
-                                        <div className="abcWeakDiv" style={{ backgroundColor: this.state.jokerSelectedIndex === index ? 'var(--primaryClr)' : '' }} onClick={() => this.onWeakLinkClick(data.header.searchId, 'JOKER', index)} ><span className="fs12 clrText absolute-center">w</span></div>
+                                        <div className="abcCaptainDiv" style={{ backgroundColor: this.state.captainSelectedIndex === index ? 'var(--primaryClr)' : '' }} onClick={() => this.onCaptainClick(data.header.searchId, 'CAPTAIN', index)}><span className="fs12 clrText absolute-center">c</span></div>
+                                        <div className="abcWeakDiv" style={{ backgroundColor: this.state.jokerSelectedIndex === index ? 'var(--growwRed)' : '' }} onClick={() => this.onWeakLinkClick(data.header.searchId, 'JOKER', index)} ><span className="fs12 clrText absolute-center">w</span></div>
                                         <div className="abcNeutralDiv" style={{ backgroundColor: this.state.jokerSelectedIndex !== index && this.state.captainSelectedIndex !== index ? 'var(--growwYellow)' : '' }} onClick={() => this.onNeutralClick(data.header.searchId, 'Neutral', index)}><span className=" fs12 absolute-center clrText" >n</span></div>
                                     </div>
                                 </div>
@@ -148,7 +148,9 @@ class LeaderBoardPage extends PureComponent {
         ]
 
         createSelection(getEmailId, selection).then((res) => {
-            console.log(res)
+            if (res.status === 204) {
+                this.props.history.push('/home')
+            }
         })
     }
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>83937B5A-C6CF-49C4-8EFF-4B5851353C22</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Lettering" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4" transform="translate(-98.000000, -341.000000)">
+            <g id="e" transform="translate(165.500000, 408.500000) scale(1, -1) translate(-165.500000, -408.500000) translate(98.000000, 341.000000)">
+                <circle id="Oval" fill="#80DEEA" cx="67.5" cy="67.5" r="67.5"></circle>
+                <path d="M29.0700018,122.999594 C33.6634945,126.186305 38.6715965,128.817398 43.9970572,130.795623 C51.3160864,133.51439 59.2345518,135 67.5,135 C75.8003374,135 83.7507565,133.501822 91.0955935,130.761129 C96.3794337,128.789488 101.349867,126.174809 105.911709,123.012278 L29.0700018,122.999594 Z" id="Oval" fill="#00BCD4"></path>
+                <path d="M29,0 C33.5934927,3.1867111 38.6015947,5.81780437 43.9270554,7.79602921 C51.2460846,10.514796 59.16455,12.000406 67.4299982,12.000406 C75.7303356,12.000406 83.6807547,10.5022277 91.0255917,7.76153488 C96.3094319,5.78989373 101.279866,3.17521479 105.841707,0.0126837645 L29,0 Z" id="Oval" fill="#00BCD4" transform="translate(67.420853, 6.000203) scale(1, -1) translate(-67.420853, -6.000203) "></path>
+                <path d="M28.9823471,12.0613185 C11.4648631,24.2549553 0,44.5385965 0,67.5 C0,90.5241874 11.5276461,110.855949 29.1261783,123.038524 L28.9823471,12.0613185 Z" id="Oval" fill="#00BCD4"></path>
+                <polygon id="Path-3" fill="#00BCD4" points="29 12 29 123 68 67.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

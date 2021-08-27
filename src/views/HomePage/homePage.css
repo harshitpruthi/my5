@@ -16,3 +16,26 @@
     justify-content: center;
     margin-right: 10px;
 }
+
+.ls7MainHead {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0px;
+    color: var(--constantWhite);
+    margin-top: 30px;
+}
+
+.ls7Two {
+    color: var(--primaryClr);
+}
+
+.pr11Image {
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.pr11ImageWidth {
+    display: flex;
+    align-items: center;
+}

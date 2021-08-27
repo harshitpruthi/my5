@@ -47,6 +47,17 @@ export function getAllStocks() {
     });
 }
 
+
+export function getLeaderBoard(emailId) {
+    const url = 'http://internal-a13f323289b1f47d2b0a2eaaef18c358-554466785.ap-south-1.elb.amazonaws.com:8000/get_leader_board';
+
+    return axiosInstance.get(url, {
+        headers: {
+            'emailId': emailId,
+        }
+    });
+}
+
 export function getPriceforBatch(list, exchange = 'NSE') {
     const data = {
         exchange,

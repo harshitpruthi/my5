@@ -1,0 +1,49 @@
+.tabs8Container {
+  position: relative;
+  max-height: 25px;
+  overflow-x: auto;
+
+  /* IE and Edge */
+  -ms-overflow-style: none;
+
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+.tabs8Container::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs8PageWidth20Mgn {
+  width: calc(100vw - 40px);
+  overflow-y: auto;
+}
+
+.tabs8Text {
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  line-height: 15px;
+  padding-right: 24px;
+  height: 25px;
+  cursor: pointer;
+  color: var(--text);
+  -webkit-font-smoothing: auto;
+}
+
+.tabs8TextActive {
+  color: var(--primaryClr);
+}
+
+.tabs8Line {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background: var(--primaryClr);
+  will-change: left, width;
+  transition: left 0.2s linear, width 0.2s linear;
+}
+
+.tabs8Shadow {
+  box-shadow: 0 2px 3px 0 var(--boxShadow);
+}

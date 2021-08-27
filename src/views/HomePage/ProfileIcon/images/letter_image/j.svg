@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>67BD71D9-5C7B-4474-8716-76938DE30563</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M44.0089593,93.0590293 C44.0095654,69.7668884 44.0103362,40.1469115 44.0112716,4.19909847 C18.3122023,13.7387981 0,38.4808771 0,67.5 C0,76.5373206 1.77603448,85.1598262 4.99811327,93.0375264 L44.0089593,93.0590293 Z" id="path-1"></path>
+    </defs>
+    <g id="Lettering" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4" transform="translate(-344.000000, -568.000000)">
+            <g id="j" transform="translate(344.000000, 568.000000)">
+                <circle id="Oval" fill="#9FA8DA" cx="67.5" cy="67.5" r="67.5"></circle>
+                <g id="Path" fill="#3F51B5">
+                    <use xlink:href="#path-1"></use>
+                    <use xlink:href="#path-1"></use>
+                </g>
+                <path d="M92.0040716,130.215507 C117.16878,120.407165 135,95.9363855 135,67.3009015 C135,38.6659279 117.169415,14.1955106 92.0054171,4.38682073 L92.0040716,130.215507 Z" id="Oval" fill="#3F51B5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
